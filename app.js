@@ -17,6 +17,7 @@ const loadDataFromLocalstorage = () => {
     themeButton.innerText = document.body.classList.contains("light-mode") ? "dark_mode" : "light_mode";
 
     const defaultText = `<div class="default-text">
+                        <img src="avatar-chatg.png" alt"Avatar" height="350">
                         <h1>Assistente Personalizado</h1>
                         <p>Inicie uma conversa e explore o poder da Inteligência Artificial.</p>
                         </div>`;
