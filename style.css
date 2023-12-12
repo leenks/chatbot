@@ -59,7 +59,8 @@ body {
     color: var(--text-color);
 }
 .default-text h1 {
-    font-size: 3.3rem;
+    font-size: 3.1rem;
+    margin: 0 10px;
 }
 .default-text p {
     margin-top: 10px;
@@ -202,6 +203,7 @@ span.material-icons-round {
     border-radius:  4px;
     font-size: 1rem;
     padding: 15px 45px 15px 20px;
+    overflow: hidden;
 }
 
 .typing-textarea textarea::placeholder {
